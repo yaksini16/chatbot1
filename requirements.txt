@@ -1,0 +1,35 @@
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+paddleocr==2.7.3
+paddlepaddle==2.6.1
+easyocr==1.7.2
+surya-ocr>=0.4.0
+transformers==5.17.0
+torch==2.14.0
+opencv-python==4.10.0
+Pillow==10.4.0
+numpy==1.26.4
+requests==2.34.2
+pydantic==2.13.5
+protobuf<=3.20.3
+
+# PRAMAN Mobile & Enterprise API
+sqlalchemy>=2.0.36
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.12
+reportlab>=4.2.5
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+slowapi>=0.1.9
+pytest>=8.0.0
+alembic>=1.13.0
+pypdf>=4.0.0
+
+# Gazette PDF RAG Knowledge Base & LLM
+pymupdf>=1.24.0               # fitz — Devanagari/Hindi-safe PDF extraction
+faiss-cpu>=1.8.0              # activates real FAISS vector search
+sentence-transformers>=3.0.0  # multilingual MiniLM (Hindi + English)
+google-genai>=0.1.1           # Official Google GenAI Python SDK
+
